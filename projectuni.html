@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectuni</title>
+    <link rel="stylesheet" href="projectuni.css">
+
+</head>
+<body>
+    <div class="loginForm">
+        <h1>Project</h1>
+        <form onsubmit="return login()">
+            <lebal for="UserName">User Name:</lebal>
+            <input type="text" id="UserName">
+            <p id="UserNameerror" class="error"></p><br>
+
+            <lebal for="password">password:</lebal>
+            <input type="password" id="password"><br>
+            <p id="passworderror" class="error"></p><br>           
+            <a type="button" href="forget.html">forget password</a>
+            
+            <div class="btn">
+                <a type="button" onclick="login()" >LogIn</a>
+                <a id="signup" type="button" href="Signup.html">Sign up</a>
+            </div>
+        </form>
+    </div>
+    <script src="projectuni.js"></script>
+</body>
+</html>

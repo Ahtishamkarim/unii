@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projectuni</title>
+    <link rel="stylesheet" href="projectuni.css">
+
+</head>
+<body>
+    <div class="loginForm">
+        <h1>sign up page</h1>
+        <form onsubmit="return signup()">
+            <lebal for="FirstName">First Name:</lebal>
+            <input type="text" id="FirstName">
+            <p id="FirstNameerror" class="error"></p><br>
+
+            <lebal for="lastName">last Name:</lebal>
+            <input type="text" id="lastName">
+            <p id="lastNameerror" class="error"></p><br>
+
+            <label for="createPassword">create Password:</label>
+            <input type="password" id="createPassword">
+            <p id="createPassworderror" class="error"></p><br>
+
+            <lebal for="reenterpassword">ReEnter Password:</lebal>
+            <input type="password" id="reenterpassword">
+            <p id="reenterpassworderror" class="error"></p><br>
+
+            <button type="button" onclick="signup()">create</button>
+
+        </form>
+
+    </div>
+    <script src="projectuni.js"></script>
+</body>
+</html>

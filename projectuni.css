@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* front page**************** */
+/*header*/
+.header {
+    position: relative;
+    background-image: url(coverpic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 36.25rem;
+    width: 100%;
+}
+
+.main {
+    width: 70rem;
+    height: 45.625rem;
+    margin: 0 auto;
+}
+.logo1 {
+    z-index: 1;
+    position: relative;
+    width: 2rem;
+    height: 1rem;
+}
+.logo1 img {
+    margin-top: -35px;
+    width: 5rem;
+    height: 8rem;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 5.625rem;
+    color: white;
+    z-index: 1;
+    list-style: none;
+}
+.nav2 {
+    color:white;
+    z-index: 1;
+    display: none;
+}
+#heading {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+#heading h2 {
+    color: rgb(243, 243, 243);
+    z-index: 1;
+    position: relative;
+    font-size:2.5rem;
+}
+
+#heading a {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 8.438rem;
+    height: 2.5rem;
+    left: 50%;
+    top: 80%;
+    border: none;
+    background-color: #CEA93A;
+    align-items: center;
+}
+#heading-button {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+}
+
+
+/*offering portion*/
+.all-container {
+    display: flex;
+    width: 75rem;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 5rem auto;
+}
+.all-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+}
+.offering {
+    align-self: center;
+}
+.offering h1 {
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.details4-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    width: 24%;
+    height: auto;
+}
+.details4-div img {
+    width: 100%;
+    height: 100%;
+}
+.details4-div:nth-child(1) {
+    border-top: 1rem solid #EB7B37;
+    gap: 1rem;
+}
+.details4-div:nth-child(2) {
+    border-top: 1rem solid rgba(250, 214, 6, 1);
+}
+.details4-div:nth-child(3) {
+    border-top: 1rem solid rgba(198, 161, 54, 1);
+}
+.details4-div:nth-child(4) {
+    border-top: 1rem solid rgba(162, 184, 193, 1);
+}
+
+
+/*contact portion*/
+.contact {
+    align-self: center;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.contact p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.contact-details {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    color: #252B42;
+}
+
+
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 1rem;
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    color: #18171D
+}
+input[type=password] {
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    color: #18171D
+}
+textarea {
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    color: #18171D
+}
+button {
+    background-color: rgba(13, 137, 202, 1);
+    padding: 1.125rem 2.375rem;
+    color: white;
+    align-self: flex-start;
+    border: none;
+}
+.btn a {
+    width: 20%;
+    align-self: center;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: #109b6c;
+    font-size: 1rem;
+    color: aliceblue;
+    cursor: pointer; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.map-location {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.ph-lo-em {
+    display: flex;
+    align-self: start;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 100%;
+}
+.l-p-e {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.l-p-e i {
+    width: 1rem;
+    color: rgba(13, 137, 202, 1);
+}
+.social-media {
+    display: flex;
+    align-self: flex-start;
+    color: rgba(13, 137, 202, 1);
+    font-size: 2rem;
+    gap: 1.5rem; 
+}
+
+
+
+/* login page*************************** */
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(bridge-53769.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 38rem;
+}
+h1 {
+    color: rgb(229, 236, 229);
+    margin-top: 2rem;
+    background-color: #18171791;
+}
+.error {
+    color: red;
+}
+form {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 50%;
+    background-color: #18171791;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: aliceblue;
+    /* margin-top: 2rem; */
+}
+input {
+    padding: 0.3rem;
+}
+a {
+    color: aliceblue;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    width: 20%;
+    align-self: center;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: #109b6c;
+    font-size: 1rem;
+    color: aliceblue;
+    cursor: pointer; 
+}
+#signup {
+    width: 20%;
+    align-self: center;
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+    background-color: #109b6c;
+    font-size: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+table, td, th {
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 95%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #18171791;
+}
+th,td {
+    padding: 0.4rem;
+}
+
+
+/* **********downloding imges************* */
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4rem;
+    width: 100%;
+}
+.downl {
+    margin-top: 4rem;
+    width: 30%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.downl img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.downl button {
+    margin-left: 10rem;
+}
+
